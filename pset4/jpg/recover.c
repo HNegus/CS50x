@@ -60,10 +60,9 @@ int main(int argc, char* argv[])
             }
             
             // set name of new jpeg
-            imgcounter++;
             sprintf(title, "%03d.jpg", imgcounter);
-            
-            
+            imgcounter++;
+                      
             // open file 
             output = fopen(title, "w");                      
             jpgstart = true;
