@@ -1,0 +1,20 @@
+0.  BMP supports up to ~16 million colors (24 bit), GIF can display 256 colors out of ~260.000 (8 bit), JPEG ~16 million
+(24 bit), PNG up to ~16 million (24 bit).
+1.  GIF
+2.  Lossy: data, quality and details may get lost when compressing. Lossless: no information will be lost.  
+3.  BMP is lossless.
+4.  The reference to those bytes on the disk is removed. The actual data is still there.
+5.  Use a program that overwrites the data with garbage values.
+6.  stdint.h defines the size of integer types.
+7.  It ensures that the size of your variables is consistent over platforms.
+8.  BYTE: 1 byte, DWORD: 4 byte, LONG: 4 byte, WORD 2 byte.
+9.  BM
+10. bfSize is the size of the entire file, biSize is the size of BITMAPINFOHEADER
+11. That would mean that the image is encoded starting with the top-left pixel and ends at the bottom-right
+12. biBitCount
+13. It could be that the output file you try to open does not exist or is write-protected
+14. Because you want to read the number of bytes defined by your struct just once
+15. 0
+16. It jumps to the next spot in the file, defined by your paramaters
+17. //TODO It is the address of the current position of the file pointer
+18. Rob Bowden

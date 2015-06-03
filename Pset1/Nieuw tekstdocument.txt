@@ -1,0 +1,18 @@
+/**
+ * greedy.c
+ *
+ * Henok Ghebrenigus
+ * probleemkind81@gmail.com 
+ *
+ * 
+ */
+ 
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void){
+
+    float f = 0.01;
+    printf(" %.50f", f);
+
+}
